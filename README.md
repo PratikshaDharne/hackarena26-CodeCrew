@@ -1,46 +1,73 @@
-<img width="2663" height="345" alt="image" src="https://github.com/user-attachments/assets/2f79120b-3cbc-46ac-b993-b0b657f23bfc" /><img width="9549" height="105" alt="image" src="https://github.com/user-attachments/assets/00508d4e-82bb-483e-ac97-9f79004556ea" /># VICSTA Hackathon – Grand Finale
-**VIT College, Kondhwa Campus | 5th – 6th March**
+# Welcome to your Lovable project
 
----
+## Project info
 
-## Team Details
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-- **Team Name:*CodeCrew*
-- **Members:*1.Pratiksha Dharne 2.Anushka Pise 3.Shweta Yede 4.Prachi Dudhankar*
-- **Domain:*FINTECH*
+## How can I edit this code?
 
----
+There are several ways of editing your application.
 
-## Project
+**Use Lovable**
 
-**Problem:*Manual expense tracking is time-consuming and inconvenient, causing many users to abandon budgeting tools. Physical receipts are difficult to organize, shared expenses lack transparency, and users receive spending feedback only after overspending has already occurred. There is a need for an intelligent system that can automatically digitize receipts, transparently track individual and shared expenses, and proactively alert users to control their spending in real time.
-* 
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-**Solution:** 
+Changes made via Lovable will be committed automatically to this repo.
 
-Develop an OCR-based expense tracking system that automatically extracts transaction details from scanned physical receipts.
-Convert unstructured receipt data into structured digital records without requiring manual data entry from users.
-Store and manage extracted expense information in a centralized system for individual and group usage.
-Provide visual analytical tools to help users understand spending behavior and monitor expenses effectively.
-Enable budget monitoring and reporting features to support informed financial decision-making.
+**Use your preferred IDE**
 
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-## Rules to Remember
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-- All development must happen **during** the hackathon only
-- Push code **regularly** — commit history is monitored
-- Use only open-source libraries with compatible licenses and **credit them**
-- Only **one submission** per team
-- All members must be present **both days**
+Follow these steps:
 
----
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-## Attribution
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-List any external libraries, APIs, or datasets used here.
+# Step 3: Install the necessary dependencies.
+npm i
 
----
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-> *"The world is not enough — but it is such a perfect place to start."* — James Bond
->
-> All the best to every team. Build something great. 🚀
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
