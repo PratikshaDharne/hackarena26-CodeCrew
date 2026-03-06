@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { ScanLine, TrendingUp, TrendingDown, DollarSign, Loader2 } from "lucide-react";
+import { ScanLine, TrendingUp, TrendingDown, IndianRupee, Loader2 } from "lucide-react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from "recharts";
 
 import AppLayout from "@/components/AppLayout";
@@ -44,7 +44,7 @@ const Dashboard = () => {
     : [];
 
   const stats = [
-    { label: "Total Spent", value: `₹${totalSpent.toLocaleString("en-IN")}`, icon: DollarSign },
+    { label: "Total Spent", value: `₹${totalSpent.toLocaleString("en-IN")}`, icon: IndianRupee },
     { label: "Receipts", value: receiptCount.toString(), icon: TrendingUp },
     { label: "Categories", value: categoryTotals.length.toString(), icon: TrendingDown },
   ];
@@ -141,11 +141,14 @@ const Dashboard = () => {
                       />
 
                       <Tooltip
-                        contentStyle={{
-                          background: "hsl(220 18% 8%)",
-                          border: "1px solid hsl(220 14% 16%)",
-                          borderRadius: 8
-                        }}
+                      contentStyle={{
+                        background: "hsl(220 18% 8%)",
+                        border: "1px solid hsl(220 14% 16%)",
+                        borderRadius: 8,
+                        color: "#fff"
+                      }}
+                      labelStyle={{ color: "#fff" }}
+                      itemStyle={{ color: "#22c55e" }}
                       />
 
                       <Bar
@@ -193,13 +196,15 @@ const Dashboard = () => {
                       </Pie>
 
                       <Tooltip
-                        contentStyle={{
-                          background: "hsl(220 18% 8%)",
-                          border: "1px solid hsl(220 14% 16%)",
-                          borderRadius: 8
-                        }}
+                      contentStyle={{
+                        backgroundColor: "#0f172a",
+                        border: "1px solid #334155",
+                        borderRadius: "8px",
+                        color: "#ffffff"
+                      }}
+                      labelStyle={{ color: "#ffffff" }}
+                      itemStyle={{ color: "#22c55e" }}
                       />
-
                     </PieChart>
 
                   </ResponsiveContainer>

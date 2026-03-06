@@ -73,7 +73,7 @@ const Receipts = () => {
                       <div className="mt-2 space-y-0.5">
                         {r.receipt_items.map((item) => (
                           <p key={item.id} className="text-xs text-muted-foreground">
-                            {item.item_name} — <span className="text-foreground">${item.price.toFixed(2)}</span>
+                            {item.item_name} — <span className="text-foreground">₹{item.price.toFixed(2)}</span>
                           </p>
                         ))}
                       </div>

@@ -5,13 +5,13 @@ import { useAuth } from "@/hooks/useAuth";
 import { useReceipts, CATEGORY_COLORS } from "@/hooks/useReceipts";
 
 const budgetDefaults: Record<string, number> = {
-  Food: 300,
-  Travel: 200,
-  Shopping: 150,
-  Bills: 100,
-  Entertainment: 50,
-  Medical: 100,
-  Education: 100,
+  Food: 3000,
+  Travel: 2000,
+  Shopping: 1500,
+  Bills: 1000,
+  Entertainment: 500,
+  Medical: 1000,
+  Education: 2000,
 };
 
 const Profile = () => {
