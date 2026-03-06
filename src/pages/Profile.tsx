@@ -61,7 +61,7 @@ const Profile = () => {
                 <div key={b.category}>
                   <div className="flex items-center justify-between text-sm mb-1.5">
                     <span>{b.category}</span>
-                    <span className="text-muted-foreground">₹{b.spent.toFixed(0)} / ${b.limit}</span>
+                    <span className="text-muted-foreground">₹{b.spent.toFixed(0)} / ₹{b.limit}</span>
                   </div>
                   <div className="h-2 bg-muted rounded-full overflow-hidden">
                     <div
