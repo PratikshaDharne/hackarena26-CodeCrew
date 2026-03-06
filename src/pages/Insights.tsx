@@ -24,12 +24,12 @@ const Insights = () => {
     ? [
         topCategory && {
           icon: TrendingUp,
-          text: `Your biggest spending category is ${topCategory.name} at $${topCategory.value.toFixed(2)}.`,
+          text: `Your biggest spending category is ${topCategory.name} at ₹${topCategory.value.toFixed(2)}.`,
           type: "warning" as const,
         },
         {
           icon: TrendingDown,
-          text: `You've tracked ${receipts.length} receipt${receipts.length > 1 ? "s" : ""} totaling $${totalSpent.toFixed(2)}.`,
+          text: `You've tracked ${receipts.length} receipt${receipts.length > 1 ? "s" : ""} totaling ₹${totalSpent.toFixed(2)}.`,
           type: "success" as const,
         },
         {

@@ -80,8 +80,8 @@ const Receipts = () => {
                     </div>
                   </div>
                   <div className="text-right">
-                    <p className="font-display font-bold text-lg">${(r.total_amount || 0).toFixed(2)}</p>
-                    <p className="text-xs text-muted-foreground">Tax: ${(r.tax || 0).toFixed(2)}</p>
+                    <p className="font-display font-bold text-lg">₹{(r.total_amount || 0).toFixed(2)}</p>
+                    <p className="text-xs text-muted-foreground">Tax: ₹{(r.tax || 0).toFixed(2)}</p>
                   </div>
                 </div>
               </div>
